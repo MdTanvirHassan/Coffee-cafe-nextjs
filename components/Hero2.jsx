@@ -21,7 +21,7 @@ const Hero2 = () => {
              
                 <div className="lg:max-w-[825px] lg:max-h-[211px] p-4">
                   <h2 className="py-4">Coffee Fit for Everyone</h2>
-                  <p>
+                  <p className="font-[Raleway] font-normal leading-5 text-base tracking-widest">
                     Our journey was inspired from the growing coffee culture in
                     Dhaka. We support the growth of coffee culture partnering
                     with other cafés and provide opportunities for working

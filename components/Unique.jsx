@@ -11,21 +11,21 @@ const Unique = () => {
         </h2>
         <div className="py-5 grid md:grid-cols-3 gap-2 ">
           <div className="grid grid-rows-3 gap-14 lg:max-w-[217px] lg:max-h-[536px] m-auto text-start lg:text-end text-white">
-            <div className="">
+            <div className="font-[Raleway] font-normal leading-5 text-base tracking-widest">
               <h3 className="py-2">Coffee Shop</h3>
               <p>
                 Our cofffe are carefully select for qualities, flavor and social
                 impact.
               </p>
             </div>
-            <div className="">
+            <div className="font-[Raleway] font-normal leading-5 text-base tracking-widest">
               <h3 className="py-2">Coffee Machine</h3>
               <p>
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </p>
             </div>
-            <div className="">
+            <div className="font-[Raleway] font-normal leading-5 text-base tracking-widest">
               <h3 className="py-2">High Quality</h3>
               <p>
                 Our Coffees are carefully selected for quality, flavor and
@@ -37,21 +37,21 @@ const Unique = () => {
             <Image src={frame} className="" alt=".." />
           </div>
           <div className="grid grid-rows-3 gap-14 lg:max-w-[217px] lg:max-h-[536px] m-auto text-start text-white">
-            <div className="">
+            <div className="font-[Raleway] font-normal leading-5 text-base tracking-widest">
               <h3 className="py-2">The Perfect Cup</h3>
               <p>
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </p>
             </div>
-            <div className="">
+            <div className="font-[Raleway] font-normal leading-5 text-base tracking-widest">
               <h3 className="py-2">Barista Coffee</h3>
               <p>
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </p>
             </div>
-            <div className="">
+            <div className="font-[Raleway] font-normal leading-5 text-base tracking-widest">
               <h3 className="py-2">Supreme Beans</h3>
               <p>
                 Our Coffees are carefully selected for quality, flavor and

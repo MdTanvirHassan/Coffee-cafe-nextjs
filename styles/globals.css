@@ -7,30 +7,31 @@
 html {
   scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 @layer base {
   body {
-    @apply bg-[#000000]
+    @apply bg-[#000000] font-[Raleway]
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-bold
+    @apply font-bold font-[Raleway] 
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl
+    @apply text-4xl sm:text-5xl md:text-6xl 
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl sm:text-4xl font-thin font-[Raleway]
   }
   
   p{
-    @apply tracking-normal
+    @apply tracking-normal font-[Raleway]
   }
   li {
-    @apply cursor-pointer
+    @apply cursor-pointer font-[Raleway]
    }
 
   button {
