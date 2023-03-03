@@ -1,13 +1,11 @@
-import Discover from '@/components/Discover'
-import Footer from '@/components/Footer'
-import Hero from '@/components/Hero'
-import Hero2 from '@/components/Hero2'
-import Moments from '@/components/Moments'
-import Popular from '@/components/Popular'
-import Special from '@/components/Special'
-import Unique from '@/components/Unique'
-import Head from 'next/head'
-
+import Discover from "@/components/Discover";
+import Hero from "@/components/Hero";
+import Hero2 from "@/components/Hero2";
+import Moments from "@/components/Moments";
+import Popular from "@/components/Popular";
+import Special from "@/components/Special";
+import Unique from "@/components/Unique";
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -19,16 +17,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Hero/>
-        <Unique/>
-        <Special/>
-        <Discover/>
-        <Popular/>
-        <Hero2/>
-        <Moments/>
-        <Footer/>
+        <Hero />
+        <Unique />
+        <Special />
+        <Discover />
+        <Popular />
+        <Hero2 />
+        <Moments />
       </main>
-      
     </>
-  )
+  );
 }
