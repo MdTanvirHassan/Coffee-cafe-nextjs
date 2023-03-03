@@ -8,9 +8,9 @@ import Product3 from "../public/assets/p3.png";
 const Popular = () => {
   return (
     <>
-    <div className='container relative h-full py-96 md:py-24 m-auto lg:max-w-[1320px] lg:max-h-[573px] text-white'>
+    <div className=' relative h-full py-96 md:py-24 m-auto lg:max-w-[1320px] lg:max-h-[573px] text-white'>
         
-        <div className="justify-evenly pt-24 mb-8">
+        <div className="justify-evenly pt-32 mb-8">
         <h2 className=" inline-block md:mr-[851px]">
             Our Popular Products
         </h2>
@@ -19,7 +19,7 @@ const Popular = () => {
         </button>
       </div>
 
-        <div className="Product py-10 max-w-[1320px] max-h-[446px] grid md:grid-cols-3 lg:grid-cols-3 gap-8 ">
+        <div className="Product py-10 max-w-[1320px] max-h-[446px] grid md:grid-cols-3 lg:grid-cols-3  md:gap-8 ">
           <Product img={Product1} title={'Italina Coffee Beans'} price={1085.00}/>
           <Product img={Product2} title={'Brazilian Coffee Beans'} price={1550.00}/>
           <Product img={Product3} title={'American Coffee Beans'} price={1085.00}/>

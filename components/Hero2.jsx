@@ -7,17 +7,17 @@ import time from "../public/assets/time.png";
 const Hero2 = () => {
   return (
     <div>
-      <section className="container h-full  py-96 md:py-64 lg:max-w-[1440px] lg:max-h-[619px] m-auto">
-        <div className="container mx-auto  px-5 pt-28 items-center">
+      <section className="relative lg:max-w-[1440px] lg:max-h-[619px] m-auto h-full  py-96 md:py-64 ">
+        <div className=" mx-auto  px-5 pt-96 items-center">
           <div className="grid lg:grid-cols-3 gap-0 md:items-start md:text-left mb-16 md:mb-0 ">
-            <div className="col-span-1  lg:max-w-[484px] h-[618px] z-10 m-auto">
+            <div className="col-span-1  lg:max-w-[484px] max-h-[618px] z-10 m-auto">
               <Image
                 src={img}
                 alt=".."
                 className="object-cover object-center w-full h-full "
               />
             </div>
-            <div className="col-span-2  lg:max-w-[932px] lg:max-h-[568px] text-white">
+            <div className="lg:col-span-2  lg:max-w-[932px] lg:max-h-[568px] text-white">
              
                 <div className="lg:max-w-[825px] lg:max-h-[211px] p-4">
                   <h2 className="py-4">Coffee Fit for Everyone</h2>
@@ -32,19 +32,19 @@ const Hero2 = () => {
                     Arabika.
                   </p>
                 </div>
-                <div className="grid lg:grid-cols-2  bottom-0 mt-14">
-                  <div className="bg-[#0E0E0E] max-w-[448px] h-[362px] p-12">
+                <div className="grid lg:grid-cols-2  bottom-0 ">
+                  <div className="bg-[#0E0E0E] lg:max-w-[448px] lg:max-h-[362px] p-12">
                     <Image
                       src={time}
                       alt=".."
-                      className="object-cover object-center  max-w-[314px] h-[290px] "
+                      className="object-cover object-center  lg:max-w-[314px] lg:max-h-[290px] "
                     />
                   </div>
-                  <div className="bg-white max-w-[508px] h-[362px] p-12">
+                  <div className="bg-white lg:max-w-[508px] lg:max-h-[362px] p-8">
                     <Image
                       src={offer}
                       alt=".."
-                      className="object-cover object-center max-w-[386px] h-[259px]"
+                      className="object-cover object-center lg:max-w-[386px] lg:max-h-[259px] p-4"
                     />
                   </div>
                 </div>

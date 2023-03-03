@@ -6,18 +6,17 @@ import bg from "../public/assets/group.png";
 const Hero = () => {
   return (
     <div>
-      <section className="container relative lg:max-w-[1252px] lg:max-h-[578px] m-auto ">
-        <div className="container mx-auto  px-5 py-28 items-center">
+      <section className="container relative lg:max-w-[1452px] lg:max-h-[578px] m-auto">
+        <div className=" mx-auto   py-28 items-center">
           <div className="grid md:grid-cols-3 bg-white gap-0 md:items-start md:text-left mb-16 md:mb-0 items-center text-center w-full h-full">
-            <div className="col-span-1 bg-white lg:max-w-[] h-full z-10 m-auto">
-              <div className="absolute">
+            <div className="col-span-1 bg-white lg:max-w-[508] h-full z-10 m-auto">
+              <div className="absolute left-0">
                 <Image
                   src={bg}
                   alt=""
                   width={145}
                   height={141}
-                  className="object-cover object-center 
-                     left-[0.83%] right-[90.76%] top-[2.15%] bottom-[95.61%]"
+                  className="object-cover object-center "
                 />
               </div>
               <div className="relative p-10 md:p-0 lg:w-[384px] lg:h-[308px] m-auto md:left-[12px] md:top-[172px]">

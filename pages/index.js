@@ -1,6 +1,8 @@
 import Discover from '@/components/Discover'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Hero2 from '@/components/Hero2'
+import Moments from '@/components/Moments'
 import Popular from '@/components/Popular'
 import Special from '@/components/Special'
 import Unique from '@/components/Unique'
@@ -23,6 +25,8 @@ export default function Home() {
         <Discover/>
         <Popular/>
         <Hero2/>
+        <Moments/>
+        <Footer/>
       </main>
       
     </>
