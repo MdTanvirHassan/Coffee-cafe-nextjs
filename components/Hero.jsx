@@ -6,7 +6,7 @@ import bg from "../public/assets/group.png";
 const Hero = () => {
   return (
     <div>
-      <section className="container lg:max-w-[1252px] lg:max-h-[578px] m-auto ">
+      <section className="container relative lg:max-w-[1252px] lg:max-h-[578px] m-auto ">
         <div className="container mx-auto  px-5 py-28 items-center">
           <div className="grid md:grid-cols-3 bg-white gap-0 md:items-start md:text-left mb-16 md:mb-0 items-center text-center w-full h-full">
             <div className="col-span-1 bg-white lg:max-w-[] h-full z-10 m-auto">

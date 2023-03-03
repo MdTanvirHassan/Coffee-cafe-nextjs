@@ -1,5 +1,6 @@
 import Discover from '@/components/Discover'
 import Hero from '@/components/Hero'
+import Popular from '@/components/Popular'
 import Special from '@/components/Special'
 import Unique from '@/components/Unique'
 import Head from 'next/head'
@@ -19,6 +20,7 @@ export default function Home() {
         <Unique/>
         <Special/>
         <Discover/>
+        <Popular/>
       </main>
       
     </>

@@ -40,17 +40,17 @@ const Navbar = () => {
       }>
       <div className="flex justify-evenly items-center w-full h-full lg:w-[1246px] lg:h-[50px] m-auto lg:mt-[22px]">
       <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden lg:flex border-b-2 border-white pb-2">
-            <li className="ml-7 text-bold text-white hover:text-gray-300">
+          <ul style={{ color: `${linkColor}` }} className="hidden lg:flex border-b-2 border-white">
+            <li className="ml-7 text-bold text-white hover:text-[#A35715] hover:border-b-4 hover:border-[#A35715] pb-2">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-7 text-bold text-white hover:text-gray-300">
+            <li className="ml-7 text-bold text-white hover:text-[#A35715] hover:border-b-4 hover:border-[#A35715] pb-2">
               <Link href="/#about">About us</Link>
             </li>
-            <li className="ml-7 text-bold text-white hover:text-gray-300">
+            <li className="ml-7 text-bold text-white hover:text-[#A35715] hover:border-b-4 hover:border-[#A35715] pb-2">
               <Link href="/#product">Our Product</Link>
             </li>
-            <li className="mx-7 text-bold text-white hover:text-gray-300">
+            <li className="mx-7 text-bold text-white hover:text-[#A35715] hover:border-b-4 hover:border-[#A35715] pb-2">
               <Link href="/#menu">Menu</Link>
             </li>
           </ul>
@@ -69,16 +69,16 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden lg:flex border-b-2 border-white pb-2">
-            <li className="ml-7 text-bold text-white hover:text-gray-300">
+            <li className="ml-7 text-bold text-white hover:text-[#A35715] hover:border-b-4 hover:border-[#A35715] pb-2">
               <Link href="/#blog">Blog News</Link>
             </li>
-            <li className="ml-7 text-bold text-white hover:text-gray-300">
+            <li className="ml-7 text-bold text-white hover:text-[#A35715] hover:border-b-4 hover:border-[#A35715] pb-2">
               <Link href="/#contact">Contact Us</Link>
             </li>
-            <li className="ml-7 text-bold text-white hover:text-gray-300">
+            <li className="ml-7 text-bold text-white hover:text-[#A35715] hover:border-b-4 hover:border-[#A35715] pb-2">
               <Link href="/#cart">Cart</Link>
             </li>
-            <li className="mx-7 text-bold text-white hover:text-gray-300">
+            <li className="mx-7 text-bold text-white hover:text-[#A35715] hover:border-b-4 hover:border-[#A35715] pb-2">
               <Link href="/#login">Log in</Link>
             </li>
           </ul>
