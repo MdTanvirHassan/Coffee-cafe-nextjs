@@ -7,7 +7,7 @@ import time from "../public/assets/time.png";
 const Hero2 = () => {
   return (
     <div>
-      <section className="relative lg:max-w-[1440px] lg:max-h-[619px] m-auto h-full  py-96 md:py-64 ">
+      <section className="relative lg:max-w-[1440px] lg:max-h-[619px] m-auto h-full  my-96 md:my-64 ">
         <div className=" mx-auto  px-5 pt-96 items-center">
           <div className="grid lg:grid-cols-3 gap-0 md:items-start md:text-left mb-16 md:mb-0 ">
             <div className="col-span-1  lg:max-w-[484px] max-h-[618px] z-10 m-auto">

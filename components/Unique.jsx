@@ -5,7 +5,7 @@ import frame from "../public/assets/Frame.png";
 const Unique = () => {
   return (
     <>
-      <div className="container py-24 m-auto lg:max-w-[1139px] lg:max-h-[669px]">
+      <div className="container my-32 m-auto lg:max-w-[1139px] lg:max-h-[669px]">
         <h2 className="text-white text-center mb-8">
           Providing Unique Coffee Experiences
         </h2>

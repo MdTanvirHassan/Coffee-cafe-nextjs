@@ -8,7 +8,7 @@ import card4 from "../public/assets/card4.png";
 
 const Discover = () => {
   return (
-    <div className=" relative h-full py-96 md:py-24 m-auto lg:max-w-[1320px] lg:max-h-[639px] text-white ">
+    <div className=" relative h-full my-96 md:my-24 m-auto lg:max-w-[1320px] lg:max-h-[639px] text-white ">
       <h2 className="text-center pt-32 mb-8">
         To Discover More Look into Our Coffee Menu
       </h2>

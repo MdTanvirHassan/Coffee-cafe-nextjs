@@ -8,7 +8,7 @@ import Product3 from "../public/assets/p3.png";
 const Popular = () => {
   return (
     <>
-    <div className=' relative h-full py-96 md:py-24 m-auto lg:max-w-[1320px] lg:max-h-[573px] text-white'>
+    <div className=' relative h-full my-96 md:my-24 m-auto lg:max-w-[1320px] lg:max-h-[573px] text-white'>
         
         <div className="justify-evenly pt-32 mb-8">
         <h2 className=" inline-block md:mr-[851px]">

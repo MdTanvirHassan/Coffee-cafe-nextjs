@@ -6,7 +6,7 @@ import cup3 from "../public/assets/cup3.png";
 
 const Special = () => {
   return (
-    <div className="container py-24 m-auto lg:max-w-[1320px] lg:max-h-[829px] text-white">
+    <div className="container my-24 m-auto lg:max-w-[1320px] lg:max-h-[829px] text-white">
       <h2 className="mb-20">We Are Open to Create Special Memories</h2>
       <div className="grid md:grid-cols-3 gap-4 m-auto">
         <div className="grid grid-rows-3 gap-0">
