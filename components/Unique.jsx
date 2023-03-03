@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import frame from "../public/assets/frame.png";
+import frame from "../public/assets/Frame.png";
 
 const Unique = () => {
   return (

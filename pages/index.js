@@ -1,3 +1,4 @@
+import Discover from '@/components/Discover'
 import Hero from '@/components/Hero'
 import Special from '@/components/Special'
 import Unique from '@/components/Unique'
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero/>
         <Unique/>
         <Special/>
+        <Discover/>
       </main>
       
     </>
